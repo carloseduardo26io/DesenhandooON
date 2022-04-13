@@ -1,0 +1,87 @@
+@charset "UTF-8";
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+@font-face {
+    font-family:art ;
+    src: url(/fontes/Stright\ Brush.ttf);
+}
+@font-face {
+    font-family: god;
+    src: url(/fontes/Good\ Morning.ttf);
+}
+body{
+   background-color: black;
+   background-image: url("/imagens/pexels-lisa-fotios-1921336.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+
+}
+
+
+header{
+text-align: center;
+box-shadow: 1px 1px 0px rgba(0, 0, 0, 0.145);
+
+height: 141px;
+min-width: 300px;
+max-width: 1000px;
+
+}
+.menu{
+   
+   text-align: right;
+   height: 35px;
+    padding: 0px;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.514) ;
+    min-width: 300px;
+max-width: 1000px;
+}
+.menu a {
+    color: white;  
+    text-decoration: none;
+    display: inline-block;
+    height: 16px;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 2px;
+    transition-duration:  0.5s;
+}
+.menu a:hover{
+   
+        background-color:#F3BD40;
+        color: white;
+}
+main{
+    
+    height: 100vw;
+    min-width: 300px;
+    max-width: 1000px;
+    background-attachment: fixed;
+}
+
+
+
+img {
+    width: 300px;
+    height: 200px;
+    margin-left: 4px;
+    display: flex;
+    
+}
+ul{
+    text-align: center;
+    
+}
+li{
+    display:inline-block ;
+    margin-top: 45px;
+}
+ .img2{
+    width: 460px;
+    height: 407px;
+    border-radius: 5px;
+ }
+
