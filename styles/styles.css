@@ -12,7 +12,7 @@
     src: url(/fontes/Good\ Morning.ttf);
 }
 body{
-   background-color: black;
+   background-color: rgb(136, 70, 103);
    background-image: url("/imagens/nart.jpg");
    background-repeat: no-repeat;
    background-size: cover;
